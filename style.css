@@ -1,0 +1,28 @@
+.grid{
+    display: grid;
+    grid-template-areas:
+      "main main main first first first"
+      "main main main second second second"
+      "footer footer footer footer footer footer";
+}
+.box1{
+    background-color: grey;
+    width: 500px;
+    padding: 15px;
+}
+.box2{
+    grid-area: main;
+    background-color: blue;
+}
+.box3{
+    grid-area: first;
+    background-color: green;
+}
+.box4{
+    grid-area: second;
+    background-color: orange;
+}
+.box5{
+    grid-area: footer;
+    background-color: red;
+}
